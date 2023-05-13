@@ -1,0 +1,18 @@
+.contato__email {
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 98%;
+    margin-top: 8px;
+    height: 34px;
+    font-size: 20px;
+    color: var(--azul);
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color: var(--azul);
+    background: url("../img/Email.svg") no-repeat ;
+    background-position: 1.3em;
+    padding-left: 3.5em;
+}
